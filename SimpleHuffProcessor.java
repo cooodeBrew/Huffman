@@ -1,20 +1,3 @@
-/*  Student information for assignment:
- *
- *  On <MY|OUR> honor, <NAME1> and <NAME2), this programming assignment is <MY|OUR> own work
- *  and <I|WE> have not provided this code to any other student.
- *
- *  Number of slip days used:
- *
- *  Student 1 (Student whose Canvas account is being used)
- *  UTEID:
- *  email address:
- *  Grader name:
- *
- *  Student 2
- *  UTEID:
- *  email address:
- *
- */
 
 import java.io.*;
 import java.util.Map;
@@ -160,13 +143,6 @@ public class SimpleHuffProcessor implements IHuffProcessor {
             is.close();
             os.close();
 
-//           for(int key : bitMap.keySet()){
-//               //int bit = Integer.valueOf(bitMap.get(key));
-//               String binaryString = bitMap.get(key);
-//               int bit = Integer.parseInt(binaryString, 2);
-//               os.writeBits(BITS_PER_WORD, bit);
-//           }
-//            os.writeBits(BITS_PER_INT, PSEUDO_EOF);
         }
         return compressBits;
     }
